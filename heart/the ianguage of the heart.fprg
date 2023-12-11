@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-11 02:08:49 PM"/>
+        <attribute name="created" value="QXN1czsgREVTS1RPUC0wUEwwUjlMOyAyMDIzLTEyLTExOyAwMToyMzoyNSBQTTsgMjgyNw=="/>
+        <attribute name="edited" value="QXN1czsgREVTS1RPUC0wUEwwUjlMOyAyMDIzLTEyLTExOyAwMjowODo0OSBQTTsgMjgzNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;please enter your age:&quot;"/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <input variable="age"/>
+            <declare name="min" type="Integer" array="False" size=""/>
+            <assign variable="min" expression="1*60"/>
+            <declare name="H" type="Integer" array="False" size=""/>
+            <assign variable="H" expression="min*60"/>
+            <declare name="day" type="Integer" array="False" size=""/>
+            <assign variable="day" expression="H*24"/>
+            <declare name="year" type="Real" array="False" size=""/>
+            <assign variable="year" expression="day*365.25"/>
+            <declare name="result" type="Real" array="False" size=""/>
+            <assign variable="result" expression="year*age"/>
+            <output expression="result"/>
+        </body>
+    </function>
+</flowgorithm>
